@@ -1,7 +1,7 @@
 {
     "expo": {
-        "name": "React-Native-Homework-2",
-        "slug": "React-Native-Homework-2",
+        "name": "React-Native-Homework-3",
+        "slug": "React-Native-Homework-3",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
@@ -14,14 +14,16 @@
         "assetBundlePatterns": [
             "**/*"
         ],
-        "ios": {
-            "supportsTablet": true
-        },
         "android": {
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#ffffff"
             }
+        },
+        "jsEngine": "hermes",
+        "ios": {
+            "jsEngine": "jsc",
+            "supportsTablet": true
         },
         "web": {
             "favicon": "./assets/favicon.png"
